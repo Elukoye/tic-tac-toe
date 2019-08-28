@@ -1,5 +1,3 @@
-require_relative 'board.rb'
-
 class Players
   attr_accessor :name, :piece
   def initialize
@@ -29,7 +27,3 @@ class Players
   end
 end
 
-board = Board.new
-game = Players.new
-game.start_game
-board.display
