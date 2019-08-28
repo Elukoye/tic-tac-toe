@@ -1,5 +1,4 @@
 require_relative '../lib/players.rb'
-
 class Board
   attr_accessor :board
   def initialize
