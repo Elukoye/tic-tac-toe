@@ -7,6 +7,7 @@ You can find the original project specification at: https://www.theodinproject.c
 
 #  TIC-TAC-TOE Game Rules 
 Game is played via the CLI
+#
 1.Game requires two players 
 #
 2.Each player choses a piece x or o to place on a board.
@@ -22,7 +23,7 @@ Game is played via the CLI
 
 # Conditions for  a draw:
  If the board is full and neither player has above condition.
-
-#Collaborators : 
+#
+# Collaborators : 
 #
 IbunHabibu and Elukoye
