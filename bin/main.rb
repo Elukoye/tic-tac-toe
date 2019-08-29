@@ -1,4 +1,4 @@
-require_relative 'bd.rb'
+require_relative 'board.rb'
 class Logic
  def initialize
    @player_1 = "player_1"
