@@ -5,6 +5,7 @@ class Logic
    @player_2 = "player_2"
    @board = Board.new
  end
+ 
  def game_start
    puts "Welcome to TIC-TAC-TOE"
    puts " Player one input name: "
@@ -12,8 +13,9 @@ class Logic
    puts "#{@player_1} is  x"
    puts "Player two input name: "
    @player_2 = gets.chomp.capitalize + " [o]"
-  puts "#{@player_2} is  o"
+   puts "#{@player_2} is  o"
  end
+ 
  def take_turns(current_player)
      puts "#{current_player} ,choose one among #{@board.rem_nums}: "
      position = gets.chomp.to_i
@@ -53,7 +55,7 @@ class Logic
     winner = @board.winner
     mshindi =''
     if winner == nil
-     puts " Damn ,its a draw!!... PLAY AGAIN?"
+     puts " Oh no!! It's a draw!! PLAY AGAIN?"
     elsif
      if winner == "x"
        mshindi=@player_1
