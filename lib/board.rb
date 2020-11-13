@@ -6,24 +6,27 @@ class Board
     @winner = nil
     @piece = ["x","o"]
   end
+  
   def replace_var(position,token)
     @remval.delete(@board[position])
     @board[position] = token
   end
+  
   def rem_nums
     return @remval
   end
+  
   def display
     (1..9).each do |i|
       print " | " + @board[i - 1].to_s
-      if i % 3 == 0
-        print " | \n"
-      end
+      print " | \n" if i % 3 == 0  
     end
   end
+  
 def position_taken?(position)
   @board[position - 1] == "x" || @board[position - 1] == "o"
 end
+  
 def win?
   bool_value = false
   win_combination = [
@@ -43,9 +46,11 @@ def win?
   }
     return bool_value
 end
+  
  def winner
    @winner
  end
+  
  def full?
   @board.all?{|token| token == "x" || token =="o"}
  end
