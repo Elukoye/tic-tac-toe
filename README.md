@@ -1,11 +1,11 @@
-# TIC-TAC-TOE
+## TIC-TAC-TOE
 
-# Object Oriented Programming in RUBY
-# [Collaborative Project]
+## Object Oriented Programming in RUBY
+### [Collaborative Project]
 The main goal is to put into practice the main concepts of Object Oriented Programming. Particularly, classes and access to their attributes.
  The original project specification is at: https://www.theodinproject.com/courses/ruby-programming/lessons/oop
 
-#  TIC-TAC-TOE Game Rules 
+### TIC-TAC-TOE Game Rules 
 Game is played via the CLI
 #
 1.Game requires two players 
@@ -18,12 +18,12 @@ Game is played via the CLI
 #
 5.Players keep alternating, if there is a win or a draw  game ends and players can play again.
 
-# Conditions for a win:
+### Conditions for a win:
  If either player has a combination of 3 consecutive x's or o's vetically, diagonally or horizontally.
 
 # Conditions for  a draw:
  If the board is full and neither player has above condition.
 #
-# Collaborators : 
+### Collaborators : 
 #
 IbunHabibu and Elukoye
