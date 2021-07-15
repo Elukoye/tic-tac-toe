@@ -1,9 +1,9 @@
 # TIC-TAC-TOE
 
-# OOP (Object Oriented Programming) in RUBY
+# Object Oriented Programming in RUBY
 # [Collaborative Project]
-In this project, the student builds a Tic Tac Toe game. The main goal is to put into practice the main concepts of Object Oriented Programming. Particularly, classes and access to their attributes.
-You can find the original project specification at: https://www.theodinproject.com/courses/ruby-programming/lessons/oop
+The main goal is to put into practice the main concepts of Object Oriented Programming. Particularly, classes and access to their attributes.
+ The original project specification is at: https://www.theodinproject.com/courses/ruby-programming/lessons/oop
 
 #  TIC-TAC-TOE Game Rules 
 Game is played via the CLI
