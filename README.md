@@ -24,6 +24,6 @@ Game is played via the CLI
 # Conditions for  a draw:
  If the board is full and neither player has above condition.
 #
-### Collaborators : 
-#
-IbunHabibu and Elukoye
+### Collaborators : IbunHabibu and Elukoye
+
+
